@@ -1,0 +1,61 @@
+{
+  "teachings": [
+    {
+      "id": "karma-yoga",
+      "title": "1. Rituals and Duty (Karma-yoga)",
+      "verse": "Bhagavad Gita 3.9 – “Work done as a sacrifice for the Supreme must be performed; otherwise, work causes bondage in this material world.”",
+      "application": "This verse explains that actions performed without a spirit of service or sacrifice lead to attachment. Therefore, every ritual and tradition can be viewed as an act of selfless service, transforming it from a mere formality into a meaningful spiritual discipline."
+    },
+    {
+      "id": "balance-of-life",
+      "title": "2. Festivals and the Balance of Life",
+      "verse": "Bhagavad Gita 6.17 – “He who is temperate in eating, recreation, work, and sleep can mitigate all material pains and practice yoga.”",
+      "application": "The practice of fasting (vrata) and other festival observances are not simply about abstaining from food. They are practices of moderation and self-discipline that help individuals achieve balance in their physical and mental lives, aligning with the core teachings of yoga."
+    },
+    {
+      "id": "respect",
+      "title": "3. Traditions and Respect",
+      "verse": "Bhagavad Gita 13.8 – “Humility, non-violence, forgiveness, simplicity – these are virtues.”",
+      "application": "Gestures like Namaste, bowing to elders, and honoring teachers are not mere superstitions. They are traditions grounded in universal virtues. By practicing these actions, we cultivate humility, non-violence, and respect, reinforcing the very essence of our culture."
+    },
+    {
+      "id": "triumph-of-goodness",
+      "title": "4. Festivals as the Triumph of Goodness",
+      "verse": "Bhagavad Gita 4.7–8 – “Whenever there is a decline in righteousness and a rise in unrighteousness, I manifest Myself to protect the righteous and destroy the wicked.”",
+      "application": "Festivals such as Dussehra and Diwali are celebrations of dharma's victory over adharma. They serve as powerful reminders that spiritual power manifests to restore order and righteousness when injustice and evil prevail, giving us a reason to celebrate the triumph of good."
+    },
+    {
+      "id": "inner-purity",
+      "title": "5. The Science of Inner Purity",
+      "verse": "Bhagavad Gita 17.14–16 – describes tapas (discipline) of body, speech, and mind: purity, truthfulness, calmness, and self-control.",
+      "application": "The Gita describes true austerity as maintaining inner purity through disciplined behavior. Rituals like bathing before worship, chanting mantras, and maintaining silence are not blind beliefs but practices that foster cleanliness, truthful speech, and a peaceful mind, aligning with the principles of inner purification."
+    },
+    {
+      "id": "bhakti-devotion",
+      "title": "6. Bhakti and Devotion",
+      "verse": "Bhagavad Gita 9.26 – “If one offers Me with love and devotion a leaf, a flower, fruit, or water, I will accept it.”",
+      "application": "This verse highlights that a simple offering given with love is more valuable than an elaborate ritual done without devotion. Traditions like offering prasad or worshiping a Tulsi plant are expressions of pure devotion and spiritual love, not mere blind rituals. They are accessible to anyone, regardless of their resources."
+    }
+  ],
+  "explore": [
+    {
+      "id": "namaste",
+      "name": "Namaste",
+      "cultural_meaning": "A gesture of respectful greeting.",
+      "scientific_meaning": "A non-contact, hygienic greeting that promotes a sense of calm and respect.",
+      "gita_reference": "Humility and surrender (Bhagavad Gita 13.8 – humility as a virtue)."
+    },
+    {
+      "id": "tulsi-vivah",
+      "name": "Tulsi Vivah",
+      "ecological_aspect": "Promotes the conservation and worship of the Tulsi plant, known for its medicinal and air-purifying properties.",
+      "spiritual_aspect": "Represents the sacred union of Lord Vishnu and Goddess Tulsi, celebrated as a symbolic wedding.",
+      "gita_connection": "Rooted in the principles of Bhakti Yoga, this tradition teaches that even the simplest act of devotion, like worshiping a plant, is spiritually significant."
+    }
+  ],
+  "daily_wisdom": {
+    "shloka": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+    "meaning": "Whenever and wherever there is a decline in righteousness and a rise of unrighteousness, at that time I manifest Myself to protect the righteous.",
+    "modern_application": "This verse teaches us to have faith that goodness will ultimately prevail. When faced with challenges or injustice in our lives, we are reminded to stand by our principles (dharma) and that a higher power will help restore balance."
+  }
+}

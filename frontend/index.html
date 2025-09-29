@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskriti - Bhagavad Gita Heritage Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 font-inter">
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-nav">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
+                        <span class="text-white font-bold text-xl font-playfair">ॐ</span>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent font-playfair">
+                            Sanskriti
+                        </h1>
+                        <p class="text-xs text-gray-600 font-medium">Heritage Through Gita</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                    <a href="#principles" class="nav-link" data-section="principles">Gita Principles</a>
+                    <a href="#teachings" class="nav-link" data-section="teachings">Teachings</a>
+                    <a href="#explore" class="nav-link" data-section="explore">Explore</a>
+                    <a href="#community" class="nav-link" data-section="community">Community</a>
+                </div>
+
+                <div class="hidden md:block">
+                    <button class="cta-button">
+                        <span>Start Journey</span>
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="md:hidden">
+                    <button class="mobile-menu-btn p-2 rounded-lg glass-effect">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-20">
+        <section id="home" class="section-content active">
+            <div class="relative min-h-screen flex items-center justify-center overflow-hidden">
+                <div class="leaf-element absolute top-20 left-1/4 w-40 h-40 bg-green-300 rounded-full opacity-30 blur-3xl will-change-transform floating-animation-1"></div>
+                <div class="leaf-element absolute top-1/3 right-1/4 w-52 h-52 bg-lime-300 rounded-full opacity-25 blur-3xl will-change-transform floating-animation-2"></div>
+                <div class="leaf-element absolute bottom-1/4 left-1/2 w-64 h-64 bg-teal-300 rounded-full opacity-35 blur-3xl will-change-transform floating-animation-3"></div>
+
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <div class="hero-circle-card max-w-4xl mx-auto will-change-transform">
+                        <div class="mb-8 p-12">
+                            <div class="inline-block p-3 rounded-2xl bg-gradient-to-r from-orange-100 to-amber-100 mb-6 pulse-animation">
+                                <span class="text-4xl text-gray-700">◆</span>
+                            </div>
+                            <h1 class="text-5xl md:text-7xl font-bold mb-6 font-playfair">
+                                <span class="bg-gradient-to-r from-orange-600 via-red-500 to-pink-600 bg-clip-text text-transparent">
+                                    Ancient Wisdom
+                                </span>
+                                <br>
+                                <span class="text-gray-800">Modern Understanding</span>
+                            </h1>
+                            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                                Discover the profound <span class="font-semibold text-orange-600">Bhagavad Gita</span> principles behind every Indian tradition, 
+                                ritual, and festival. Transform superstition into spiritual science.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-6 mb-12 mt-16">
+                        <div class="feature-card group will-change-transform">
+                            <div class="feature-icon bg-gradient-to-r from-orange-400 to-red-400">
+                                ⚛
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2 group-hover:text-orange-600 transition-colors">
+                                Gita-Rooted Wisdom
+                            </h3>
+                            <p class="text-gray-600 text-sm">
+                                Every tradition explained through the four yogas of the Bhagavad Gita
+                            </p>
+                        </div>
+                        <div class="feature-card group will-change-transform">
+                            <div class="feature-icon bg-gradient-to-r from-blue-400 to-purple-400">
+                                ⚗
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">
+                                Scientific Reasoning
+                            </h3>
+                            <p class="text-gray-600 text-sm">
+                                Modern science validates ancient practices and their benefits
+                            </p>
+                        </div>
+                        <div class="feature-card group will-change-transform">
+                            <div class="feature-icon bg-gradient-to-r from-green-400 to-teal-400">
+                                ☥
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2 group-hover:text-green-600 transition-colors">
+                                Interactive Learning
+                            </h3>
+                            <p class="text-gray-600 text-sm">
+                                Engaging quizzes and multimedia content for deeper understanding
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button class="primary-btn" onclick="scrollToSection('principles')">
+                            <span>Explore Gita Principles</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg>
+                        </button>
+                        <button class="secondary-btn" onclick="scrollToSection('teachings')">
+                            <span>Browse Teachings</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="section-content">
+            <div class="min-h-screen py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-16">
+                        <div class="inline-block p-3 rounded-2xl bg-gradient-to-r from-orange-100 to-amber-100 mb-6">
+                            <span class="text-4xl text-gray-700">🪷</span>
+                        </div>
+                        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-playfair">
+                            <span class="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                                The Four Pillars
+                            </span>
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                            Every Indian tradition finds its roots in these fundamental teachings of the Bhagavad Gita. 
+                            Understanding these principles transforms how we see our cultural practices.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div class="principle-card group will-change-transform" data-principle="dharma">
+                            <div class="principle-header">
+                                <div class="principle-icon bg-gradient-to-r from-orange-400 to-red-500">
+                                    &#9763;
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800 font-playfair group-hover:text-orange-600 transition-colors">
+                                        Dharma
+                                    </h3>
+                                    <p class="text-orange-600 font-medium">Righteous Duty</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                The foundation of all traditions lies in dharma - our duty to family, society, and the divine. 
+                                Every ritual serves to remind us of our responsibilities and moral obligations.
+                            </p>
+                            <div class="principle-examples">
+                                <h4 class="font-semibold text-gray-800 mb-3">Traditions Rooted in Dharma:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="example-tag">Family Ceremonies</span>
+                                    <span class="example-tag">Wedding Rituals</span>
+                                    <span class="example-tag">Ancestor Worship</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="principle-card group will-change-transform" data-principle="karma">
+                            <div class="principle-header">
+                                <div class="principle-icon bg-gradient-to-r from-blue-400 to-indigo-500">
+                                    &#9671;
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800 font-playfair group-hover:text-blue-600 transition-colors">
+                                        Karma Yoga
+                                    </h3>
+                                    <p class="text-blue-600 font-medium">Selfless Action</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Rituals teach us to act without attachment to results. The focus is on performing our duties 
+                                with dedication, not on the outcomes we desire.
+                            </p>
+                            <div class="principle-examples">
+                                <h4 class="font-semibold text-gray-800 mb-3">Traditions Rooted in Karma Yoga:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="example-tag">Seva (Service)</span>
+                                    <span class="example-tag">Yajna (Offerings)</span>
+                                    <span class="example-tag">Daily Prayers</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="principle-card group will-change-transform" data-principle="bhakti">
+                            <div class="principle-header">
+                                <div class="principle-icon bg-gradient-to-r from-pink-400 to-rose-500">
+                                    &#9670;
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800 font-playfair group-hover:text-pink-600 transition-colors">
+                                        Bhakti Yoga
+                                    </h3>
+                                    <p class="text-pink-600 font-medium">Pure Devotion</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Many rituals and festivals are expressions of pure love and devotion to the divine. 
+                                They cultivate emotional connection and surrender to a higher power.
+                            </p>
+                            <div class="principle-examples">
+                                <h4 class="font-semibold text-gray-800 mb-3">Traditions Rooted in Bhakti:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="example-tag">Kirtan & Bhajans</span>
+                                    <span class="example-tag">Festival Celebrations</span>
+                                    <span class="example-tag">Temple Worship</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="principle-card group will-change-transform" data-principle="jnana">
+                            <div class="principle-header">
+                                <div class="principle-icon bg-gradient-to-r from-purple-400 to-violet-500">
+                                    &#9768;
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800 font-playfair group-hover:text-purple-600 transition-colors">
+                                        Jnana Yoga
+                                    </h3>
+                                    <p class="text-purple-600 font-medium">Path of Knowledge</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Certain rituals are designed to impart deeper knowledge about the self and the universe. 
+                                They encourage introspection, meditation, and spiritual awakening.
+                            </p>
+                            <div class="principle-examples">
+                                <h4 class="font-semibold text-gray-800 mb-3">Traditions Rooted in Jnana:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="example-tag">Meditation Practices</span>
+                                    <span class="example-tag">Sacred Texts Study</span>
+                                    <span class="example-tag">Spiritual Discourses</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 text-center">
+                        <div class="integration-card max-w-4xl mx-auto will-change-transform">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 font-playfair">
+                                The Beautiful Integration
+                            </h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Most Indian traditions beautifully integrate multiple principles. A single festival might 
+                                involve dharmic duties (family gathering), karma yoga (selfless preparation), 
+                                bhakti (devotional singing), and jnana (spiritual teachings). This holistic approach 
+                                makes our culture uniquely comprehensive in spiritual development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teachings" class="section-content py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <div class="inline-block p-3 rounded-2xl bg-gradient-to-r from-green-100 to-teal-100 mb-6">
+                        <span class="text-4xl text-gray-700">🌿</span>
+                    </div>
+                    <h2 class="text-4xl md:text-6xl font-bold mb-6 font-playfair">
+                        <span class="bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">
+                            Key Teachings & Applications
+                        </span>
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Explore specific teachings from the Bhagavad Gita and their direct application to everyday traditions and rituals.
+                    </p>
+                </div>
+                
+                <div id="teachings-content" class="grid md:grid-cols-1 gap-12">
+                    </div>
+            </div>
+        </section>
+
+        <section id="explore" class="section-content py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <div class="inline-block p-3 rounded-2xl bg-gradient-to-r from-orange-100 to-amber-100 mb-6">
+                        <span class="text-4xl text-gray-700">💡</span>
+                    </div>
+                    <h2 class="text-4xl md:text-6xl font-bold mb-6 font-playfair">
+                        <span class="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                            Explore Traditions
+                        </span>
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Dive deep into the cultural meanings, scientific reasons, and Gita connections behind traditions.
+                    </p>
+                </div>
+                
+                <div id="explore-content" class="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    </div>
+
+                <div class="mt-16 text-center">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 font-playfair">
+                        Interactive Learning
+                    </h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div id="daily-wisdom-container" class="interactive-card will-change-transform">
+                            </div>
+                        <div id="quiz-container" class="interactive-card will-change-transform">
+                            <h4 class="text-xl font-bold mb-2">Gamified Quizzes & Reels</h4>
+                            <p class="text-gray-600 mb-4">Engage with fun quizzes like “Which Guna does this ritual represent?” and watch short animations explaining “Science + Gita + Tradition”.</p>
+                            <button class="primary-btn" id="start-quiz-btn">Start Quiz</button>
+                            <div id="quiz-output" class="mt-4 p-4 text-left border rounded-lg bg-gray-50 text-gray-700 hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="section-content py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <div class="inline-block p-3 rounded-2xl bg-gradient-to-r from-orange-100 to-amber-100 mb-6">
+                        <span class="text-4xl text-gray-700">🤝</span>
+                    </div>
+                    <h2 class="text-4xl md:text-6xl font-bold mb-6 font-playfair">
+                        <span class="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                            Join the Conversation
+                        </span>
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Our community forums are a space to ask questions, share knowledge, and connect with others on the journey of spiritual discovery.
+                    </p>
+                </div>
+                
+                <div class="community-forum-mockup p-8 border rounded-3xl backdrop-blur-lg will-change-transform">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Discussion Topics</h3>
+                    <div id="forum-content" class="space-y-4">
+                         </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="text-xl font-bold text-gray-800 mb-4">Ask a Question</h4>
+                        <form id="ask-question-form" class="space-y-4">
+                            <input type="text" id="question-input" placeholder="Enter your question here..." class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            <button type="submit" class="primary-btn w-full justify-center">Post Question</button>
+                        </form>
+                        <div id="form-output" class="mt-4 p-4 text-left border rounded-lg bg-gray-50 text-gray-700 hidden"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
